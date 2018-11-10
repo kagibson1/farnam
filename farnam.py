@@ -1,7 +1,7 @@
 import sys
 from time import sleep
 
-inputFile = sys.argv[0]
+inputFile = sys.argv[1]
 inputFile = inputFile.split(".")[0]
 
 with open(inputFile + ".sh", "w") as f:
